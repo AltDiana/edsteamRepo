@@ -18,7 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-versions: '3.13'
+          python-version: '3.13'
           
       - name: Run script
         run: python ./stats.py
@@ -27,6 +27,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update stats
-          commit_user_name: My GitHub Actions Bot # defaults to "github-actions[bot]"
+          commit_user_name: Diana Alt
           commit_user_email: diana.altamirano7@gmail.com
           commit_author: altdiana
