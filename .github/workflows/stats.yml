@@ -29,4 +29,4 @@ jobs:
           commit_message: Update stats
           commit_user_name: Diana Alt
           commit_user_email: diana.altamirano7@gmail.com
-          commit_author: AltDiana
+          commit_author: AltDiana <diana.altamirano7@gmail.com>
